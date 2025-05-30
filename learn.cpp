@@ -2,9 +2,14 @@
 using namespace std;
 
 int main(){
-    int a = 10;
-    float b = 20.5;
-    cout << a + b;
+    
+    struct{
+        int num = 10;
+        string name = "Nirshal";
+    }LearnStruct;
+
+    cout << LearnStruct.num << " " << LearnStruct.name;
+
     return 0;
 
 }
