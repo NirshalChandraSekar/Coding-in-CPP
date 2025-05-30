@@ -2,9 +2,10 @@
 using namespace std;
 
 int main(){
-    cout<< "hello world \n";
-    cout<< "checking\n";
-    cout<<"checking again";
+    int a = 10;
+    float b = 20.5;
+    cout << a + b;
     return 0;
+
 }
 
