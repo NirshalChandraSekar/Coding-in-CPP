@@ -3,14 +3,7 @@ using namespace std;
 
 int main(){
     
-    struct{
-        int num = 10;
-        string name = "Nirshal";
-    }LearnStruct;
-
-    cout << LearnStruct.num << " " << LearnStruct.name;
-
-    return 0;
-
+    vector<int> arr = {1,2,3,4,5};
+    cout << arr.size();
 }
 
