@@ -1,11 +1,14 @@
 #include<iostream>
 #include<vector>
+#include<algorithm>
+#include<limits>
 using namespace std;
 
 
 int main(){
     
-    vector<vector<int>> output = {{-1, 0, 1}, {-1, -1, 2}, {0, 0, 0}};
-    cout << output[0][0];
+    vector<int> nums = {1, 2, 3, 4, 5};
+    
+    cout << *max_element(nums.begin(), nums.end());
 }
 
