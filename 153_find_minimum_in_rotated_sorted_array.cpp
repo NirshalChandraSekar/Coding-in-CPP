@@ -21,7 +21,7 @@ public:
 
 int main() {
     Solution solution;
-    vector<int> nums = {1,2,3,4,5};
+    vector<int> nums = {3,4,5,1,2};
 
     int result = solution.findMin(nums);
     cout << "Minimum in rotated sorted array: " << result << endl; // Output should be 1
