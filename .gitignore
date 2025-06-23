@@ -24,6 +24,7 @@ learn
 217_contains_duplicate
 242_valid_anagram
 238_product_of_array_except_self
+287_find_the_duplicate_number
 347_top_k_frequent_elements
 704_binary_search
 853_car_fleet
